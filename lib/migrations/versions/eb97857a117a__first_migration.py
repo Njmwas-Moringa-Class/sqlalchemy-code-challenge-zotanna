@@ -1,8 +1,8 @@
-"""Create tables Restaraunt, Customer
+"""_first_migration
 
-Revision ID: 2723e7bbcf91
-Revises: 3204bcc6d697
-Create Date: 2022-09-19 01:38:49.993222
+Revision ID: eb97857a117a
+Revises: 4aab50bded4e
+Create Date: 2024-02-13 11:37:37.273358
 
 """
 from alembic import op
@@ -10,8 +10,8 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = '2723e7bbcf91'
-down_revision = '3204bcc6d697'
+revision = 'eb97857a117a'
+down_revision = '4aab50bded4e'
 branch_labels = None
 depends_on = None
 
